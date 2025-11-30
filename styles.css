@@ -34,3 +34,14 @@ header{
 .right{
     margin-left: 0.5rem;
 }
+.right ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.right ul a{
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    color: hsl(257, 7%, 63%);
+    cursor: pointer;
+}
