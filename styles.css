@@ -133,3 +133,10 @@ input{
     display: flex;
     flex-direction: column;
 }
+.services-content{
+    max-width: 30rem;
+}
+.services-content p{
+    color: hsl(257, 7%, 63%);
+}
+
