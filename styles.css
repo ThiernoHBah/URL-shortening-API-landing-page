@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-size: 18px;
+    font-family: "poppins","san-serif";
+    margin-inline: auto;
+    background-color: burlywood;
+}
