@@ -45,3 +45,9 @@ header{
     color: hsl(257, 7%, 63%);
     cursor: pointer;
 }
+.right ul .active{
+    background: cyan;
+    color:#fff;
+    padding: 0.4rem 1.2rem;
+    border-radius: 1rem;
+}
