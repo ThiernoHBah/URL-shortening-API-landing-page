@@ -16,3 +16,12 @@ header{
     margin: 1.2rem;
     margin-bottom: 3rem;
 }
+.left{
+    display: flex;
+}
+.left ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
