@@ -109,4 +109,10 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: hsl(257, 27%, 26%);
+    padding: 1rem 1.5rem;
+    position: relative;
+    width: min(100%, 40rem);
+    border-radius: 0.3rem;
+    overflow: hidden;
 }
