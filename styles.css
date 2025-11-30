@@ -71,3 +71,6 @@ section{
     align-items: center;
     justify-content: center;
 }
+.content{
+    max-width: 30rem;
+}
