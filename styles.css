@@ -146,3 +146,6 @@ input{
     justify-content: space-around;
     width: 100%;
 }
+.cards p{
+    color: rgb(52,44,44);
+}
