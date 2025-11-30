@@ -116,3 +116,14 @@ input{
     border-radius: 0.3rem;
     overflow: hidden;
 }
+.input-btn{
+    padding: 0.5em; 
+    border-radius: 0.2rem;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    background: cyan;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
