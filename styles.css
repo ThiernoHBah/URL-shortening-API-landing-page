@@ -55,5 +55,10 @@ header{
     display: block;
 }
 .bar{
-    
+    display: block;
+    width: 1.5rem;
+    height: 0.2rem;
+    margin: 0.3rem auto;
+    transition: all 0.3s ease-in-out;
+    background: black;
 }
