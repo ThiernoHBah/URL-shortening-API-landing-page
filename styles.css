@@ -31,3 +31,6 @@ header{
     color:hsl(257, 7%, 63%);
     cursor: pointer;
 }
+.right{
+    margin-left: 0.5rem;
+}
