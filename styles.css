@@ -78,3 +78,7 @@ section{
     font-size: 3rem;
     margin: 0.5rem;
 }
+.content p{
+    color: hsl(257, 7%, 63%);
+    margin: 0.5rem;
+}
