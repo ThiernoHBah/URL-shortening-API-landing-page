@@ -146,6 +146,15 @@ input{
     justify-content: space-around;
     width: 100%;
 }
-.cards p{
+.card p{
     color: rgb(52,44,44);
+}
+card{
+    margin: 2rem;
+    max-width: 20rem;
+}
+card1{
+    background: #eff1f7;
+    padding: 1rem 0.2rem;
+    border-radius: 0.3rem;
 }
