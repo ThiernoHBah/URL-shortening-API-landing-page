@@ -13,4 +13,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 1.2rem;
+    margin-bottom: 3rem;
 }
