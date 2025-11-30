@@ -62,3 +62,12 @@ header{
     transition: all 0.3s ease-in-out;
     background: black;
 }
+
+//////////////////////////////////////////////////////////////
+
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
