@@ -82,3 +82,14 @@ section{
     color: hsl(257, 7%, 63%);
     margin: 0.5rem;
 }
+.content .btn{
+    background: cyan;
+    padding: 0.5rem 1.7rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color:#fff;
+    font-size: 1.2rem;
+    border-radius: 1.2rem;
+}
