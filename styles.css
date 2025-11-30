@@ -149,11 +149,21 @@ input{
 .card p{
     color: rgb(52,44,44);
 }
-card{
+.card{
     margin: 2rem;
     max-width: 20rem;
 }
-card1{
+.card1{
+    background: #eff1f7;
+    padding: 1rem 0.2rem;
+    border-radius: 0.3rem;
+}
+.card2{
+    background: #eff1f7;
+    padding: 1rem 0.2rem;
+    border-radius: 0.3rem;
+}
+.card3{
     background: #eff1f7;
     padding: 1rem 0.2rem;
     border-radius: 0.3rem;
