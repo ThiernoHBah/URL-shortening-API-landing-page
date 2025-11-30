@@ -7,7 +7,7 @@ body{
     font-size: 18px;
     font-family: "poppins","san-serif";
     margin-inline: auto;
-    background-color: burlywood;
+    
 }
 header{
     display: flex;
@@ -178,4 +178,14 @@ input{
     position: relative;
     gap: 2rem;
     color: #fff;
+}
+.boost .btn{
+    background: cyan;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
 }
