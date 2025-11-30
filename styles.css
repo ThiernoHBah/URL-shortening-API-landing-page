@@ -25,3 +25,9 @@ header{
     justify-content: center;
     list-style: none;
 }
+.left ul a{
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    color:hsl(257, 7%, 63%);
+    cursor: pointer;
+}
