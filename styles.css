@@ -189,3 +189,17 @@ input{
     font-size: 1.2rem;
     border-radius: 1.5rem;
 }
+footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background:hsl(260, 8%, 14%);
+}
+.footer-links {
+  margin-top: 2rem;
+}
+ul li {
+  color:hsl(257, 27%, 26%);
+  margin: 0.2rem 0;
+  list-style: none;
+}
