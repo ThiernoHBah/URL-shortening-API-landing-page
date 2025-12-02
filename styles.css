@@ -211,3 +211,10 @@ ul :nth-child(1) {
   display: flex;
   justify-content: space-between;
 }
+.social-links {
+  padding: 0.4rem 0.5rem;
+  margin-top: 2rem;
+}
+.logo {
+  margin-top: 2rem;
+}
