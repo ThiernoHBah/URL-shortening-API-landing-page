@@ -233,7 +233,7 @@ ul :nth-child(1) {
   color: #fff;
   font-size: 1rem;
   text-align: center;
-  background: var(--cyan);
+  background:cyan;
   cursor: pointer;
   outline: none;
   border: none;
