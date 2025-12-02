@@ -51,8 +51,9 @@ header{
     padding: 0.4rem 1.2rem;
     border-radius: 1rem;
 }
-.hamburger{
+.Hamburger{
     display: block;
+
 }
 .bar{
     display: block;
@@ -217,4 +218,126 @@ ul :nth-child(1) {
 }
 .logo {
   margin-top: 2rem;
+}
+.result .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  margin-inline: auto;
+}
+.newUrl-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  background: var(--cyan);
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+
+
+
+
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu {
+    position: fixed;
+    width: 100%;
+    left: 100%;
+    top: 70px;
+    flex-direction: column;
+    text-align: center;
+    background: var(--dark-violet);
+    transition: 0.3s ease;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .nav-item {
+    margin: 1rem 0;
+  }
+  .sm {
+    display: block;
+  }
+  .left ul .active {
+    background: cyan;
+    padding: 0.4rem 1.2rem;
+    border-radius: 1rem;
+    color: #fff;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    width: 90%;
+  }
+  .content {
+    margin-top: 5rem;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .image img {
+    width: 100%;
+  }
+  .content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--dark-violet);
+    width: 90%;
+  }
+  input {
+    font-size: 1rem;
+    padding: 0.9rem 1.2rem;
+    width: 90%;
+  }
+  .input-btn {
+    font-size: 1rem;
+    padding: 0.9rem 1.2rem;
+    width: 90%;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin: 0.5rem;
+  }
+  .boost {
+    background: var(--dark-violet);
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
