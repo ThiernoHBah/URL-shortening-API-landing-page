@@ -1,3 +1,112 @@
+URL Shortening Web Application
+<img src="./images/urlshortener-screenshot.png" alt="URL Shortener Screenshot"/>
+Description
+
+A frontend web application that allows users to shorten URLs quickly and easily using the Bitly API.
+Users can paste any long URL, receive a shortened link instantly, and copy it to their clipboard with one click.
+
+This project focuses on responsive design, clean UI/UX, and real API integration.
+
+Table of Contents
+
+Technologies Used
+
+Features
+
+Design
+
+Project Next Steps
+
+Deployed App
+
+About the Author
+
+<a name="technologiesused"></a>Technologies Used
+
+HTML5
+
+CSS3
+
+JavaScript (ES6+)
+
+Bitly API
+
+Fetch API
+
+Responsive Design
+
+DOM Manipulation
+
+Features
+
+Users can paste any valid URL and shorten it instantly.
+
+Fully integrated with the Bitly URL Shortening API.
+
+“Copy” button allows users to copy the shortened URL to the clipboard.
+
+Stores multiple results during the session.
+
+Responsive hamburger navigation menu for mobile view.
+
+Dynamic DOM rendering for displaying shortened links.
+
+Design
+
+Layout and styling implemented using clean HTML5 and CSS3.
+
+Mobile-first responsive design.
+
+Custom components for input containers, buttons, cards, and result items.
+
+UI/UX inspired by modern SaaS landing pages.
+
+<a name="nextsteps"></a>Project Next Steps
+
+Add loading/spinner animation while shortening URLs.
+
+Save shortened links in localStorage so they persist across sessions.
+
+Implement error messages with UI feedback (invalid link, API offline, etc.).
+
+Allow users to delete shortened links from history.
+
+Add dark mode/light mode toggle.
+
+Add analytics for number of copies or click tracking.
+
+<a name="deployment"></a>Deployed Link
+
+Live App: (add your Netlify or GitHub Pages link once deployed)
+Example:
+Netlify
+
+Repository:
+GitHub
+
+If deployment does not load, clone the repository and open index.html locally.
+
+<a name="author"></a>About The Author
+
+I’m a developer who enjoys building clean, functional, and visually appealing web applications. I like solving real-world problems through code and learning new technologies while working on small projects like this one. My goal is to keep improving while building things that are fun, useful, and intuitive.
+
+Works Cited / Resources
+
+Bitly API Documentation
+https://dev.bitly.com/
+
+MDN Web Docs – Fetch API
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+MDN Web Docs – Clipboard API
+https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API
+
+StackOverflow discussions on JS event handling and DOM manipulation
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
 # Frontend Mentor - Shortly URL shortening API Challenge
 
 ![Design preview for the Shortly URL shortening API coding challenge](preview.jpg)
