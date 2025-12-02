@@ -6,11 +6,11 @@ const selectElement = (selector) => {
 const form = selectElement("form");
 const input = selectElement("input");
 const result = selectElement(".result");
-const hamburger = selectElement(".hamburger");
+const hamburger = selectElement(".Hamburger");
 const navMenu = selectElement(".nav-menu");
 
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
+Hamburger.addEventListener("click", () => {
+  Hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
 });
 
